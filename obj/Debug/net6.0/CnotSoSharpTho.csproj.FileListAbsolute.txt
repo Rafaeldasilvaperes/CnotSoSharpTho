@@ -25,3 +25,31 @@ C:\Users\rodrigo.peres\Desktop\Fael api\CnotSoSharpTho\obj\Debug\net6.0\refint\C
 C:\Users\rodrigo.peres\Desktop\Fael api\CnotSoSharpTho\obj\Debug\net6.0\CnotSoSharpTho.pdb
 C:\Users\rodrigo.peres\Desktop\Fael api\CnotSoSharpTho\obj\Debug\net6.0\CnotSoSharpTho.genruntimeconfig.cache
 C:\Users\rodrigo.peres\Desktop\Fael api\CnotSoSharpTho\obj\Debug\net6.0\ref\CnotSoSharpTho.dll
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\bin\Debug\net6.0\appsettings.json
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\bin\Debug\net6.0\CnotSoSharpTho.exe
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\bin\Debug\net6.0\CnotSoSharpTho.deps.json
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\bin\Debug\net6.0\CnotSoSharpTho.runtimeconfig.json
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\bin\Debug\net6.0\CnotSoSharpTho.dll
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\bin\Debug\net6.0\ref\CnotSoSharpTho.dll
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\bin\Debug\net6.0\CnotSoSharpTho.pdb
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\obj\Debug\net6.0\CnotSoSharpTho.csproj.AssemblyReference.cache
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\obj\Debug\net6.0\CnotSoSharpTho.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\obj\Debug\net6.0\CnotSoSharpTho.AssemblyInfoInputs.cache
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\obj\Debug\net6.0\CnotSoSharpTho.AssemblyInfo.cs
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\obj\Debug\net6.0\CnotSoSharpTho.csproj.CoreCompileInputs.cache
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\obj\Debug\net6.0\CnotSoSharpTho.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\obj\Debug\net6.0\CnotSoSharpTho.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\obj\Debug\net6.0\scopedcss\bundle\CnotSoSharpTho.styles.css
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\obj\Debug\net6.0\CnotSoSharpTho.csproj.CopyComplete
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\obj\Debug\net6.0\CnotSoSharpTho.dll
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\obj\Debug\net6.0\ref\CnotSoSharpTho.dll
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\obj\Debug\net6.0\CnotSoSharpTho.pdb
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\obj\Debug\net6.0\CnotSoSharpTho.genruntimeconfig.cache
+C:\Users\rafael\Documents\RAFAEL\ONE - Curso Oracle\C#\cnotsosharptho\bin\Debug\net6.0\Newtonsoft.Json.dll

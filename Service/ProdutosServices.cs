@@ -1,5 +1,8 @@
+using CnotSoSharpTho.DAO;
 using CnotSoSharpTho.Interfaces;
 using CnotSoSharpTho.ViewModels;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace CnotSoSharpTho.Service;
 
@@ -7,17 +10,32 @@ public class ProdutosServices : IProdutosServices
 {
     public List<ProdutoViewModel> GetProdutos()
     {
-     List<ProdutoViewModel> listaProduto = new List<ProdutoViewModel>();
-     ProdutoViewModel produto = new ProdutoViewModel();
-     produto.image = "IMAGEM";
-     produto.price = "5064.69";
-     produto.id = 10;
-     produto.description = "Lorem ipsum dolor sit amet consectetur adipisicing elit";
-     produto.type = "ilustracoes";
-     produto.alt = "Desenho de olho com caneta preta em folha branca";
-     produto.name = "Arte com caneta preta by Anna Muravska";
+        List<ProdutoViewModel> listaProduto = new List<ProdutoViewModel>();
+        ProdutoViewModel produto = new ProdutoViewModel();
+        ProdutosDAO produtosJSON = new ProdutosDAO();
+        
+        var produtosJsonOriginal = produtosJSON.GetProdutosHttp();
+        var produtosParaString = JsonConvert.DeserializeObject(produtosJsonOriginal).ToString();
+        
+        var ProdutosConvertidos = JsonConvert.DeserializeObject<List<ProdutoViewModel>>(produtosParaString);
 
-    listaProduto.Add(produto);
-    return listaProduto;
+       
+        foreach( ProdutoViewModel modelo in ProdutosConvertidos)
+        {
+            
+            
+                produto.image = modelo.image;
+                produto.price = modelo.price;
+                produto.id = modelo.id;
+                produto.description = modelo.description;
+                produto.type = modelo.type;
+                produto.alt = modelo.alt;
+                produto.name = modelo.name;
+
+                listaProduto.Add(produto);
+            
+        }
+
+        return listaProduto;
     }
 }
