@@ -1,10 +1,13 @@
+using CnotSoSharpTho.DAO.Interfaces;
+using CnotSoSharpTho.ViewModels;
 using Newtonsoft.Json;
 
 namespace CnotSoSharpTho.DAO;
 
-public class ProdutosDAO
+public class ProdutosDAO : IProdutoDao
 {
-  public string GetProdutosHttp()
+ 
+  public List<ProdutoViewModel> GetProdutosHttp()
   {
     var requestFakeBD = new HttpClient();
     var AluraMusicProduto45 = "https://fake-server-app-alura-music.herokuapp.com/products";
@@ -13,7 +16,7 @@ public class ProdutosDAO
     
     var result = requestFakeBD.GetAsync(endPoint).Result;
     var resultJSON = result.Content.ReadAsStringAsync().Result;
-    var JSONADO = JsonConvert.SerializeObject(resultJSON);
+    var JSONADO = JsonConvert.DeserializeObject<List<ProdutoViewModel>>(resultJSON);
     
 
     return JSONADO;

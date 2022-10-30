@@ -1,3 +1,5 @@
+using CnotSoSharpTho.DAO;
+using CnotSoSharpTho.DAO.Interfaces;
 using CnotSoSharpTho.Interfaces;
 using CnotSoSharpTho.Service;
 
@@ -11,6 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IProdutosServices, ProdutosServices>();
+// builder.Services.AddScoped<IProdutoDao, ProdutosDAO>();
 
 var app = builder.Build();
 

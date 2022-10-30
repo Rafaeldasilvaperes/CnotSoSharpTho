@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafael\\Documents\\RAFAEL\\ONE - Curso Oracle\\C#\\cnotsosharptho\\CnotSoSharpTho.csproj": {}
+    "C:\\Users\\rafael\\Documents\\RAFAEL\\ONE - Curso Oracle\\C#\\CnotSoSharpTho\\CnotSoSharpTho.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafael\\Documents\\RAFAEL\\ONE - Curso Oracle\\C#\\cnotsosharptho\\CnotSoSharpTho.csproj": {
+    "C:\\Users\\rafael\\Documents\\RAFAEL\\ONE - Curso Oracle\\C#\\CnotSoSharpTho\\CnotSoSharpTho.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafael\\Documents\\RAFAEL\\ONE - Curso Oracle\\C#\\cnotsosharptho\\CnotSoSharpTho.csproj",
+        "projectUniqueName": "C:\\Users\\rafael\\Documents\\RAFAEL\\ONE - Curso Oracle\\C#\\CnotSoSharpTho\\CnotSoSharpTho.csproj",
         "projectName": "CnotSoSharpTho",
-        "projectPath": "C:\\Users\\rafael\\Documents\\RAFAEL\\ONE - Curso Oracle\\C#\\cnotsosharptho\\CnotSoSharpTho.csproj",
+        "projectPath": "C:\\Users\\rafael\\Documents\\RAFAEL\\ONE - Curso Oracle\\C#\\CnotSoSharpTho\\CnotSoSharpTho.csproj",
         "packagesPath": "C:\\Users\\rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafael\\Documents\\RAFAEL\\ONE - Curso Oracle\\C#\\cnotsosharptho\\obj\\",
+        "outputPath": "C:\\Users\\rafael\\Documents\\RAFAEL\\ONE - Curso Oracle\\C#\\CnotSoSharpTho\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rafael\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
@@ -45,6 +49,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.116, )"
             }
           },
           "imports": [
